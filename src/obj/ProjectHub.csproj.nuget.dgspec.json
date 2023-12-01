@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/nvme/hpf3/projects/avalonia-misc-projects/src/ProjectHub.csproj": {}
+  },
+  "projects": {
+    "/media/nvme/hpf3/projects/avalonia-misc-projects/src/ProjectHub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/nvme/hpf3/projects/avalonia-misc-projects/src/ProjectHub.csproj",
+        "projectName": "ProjectHub",
+        "projectPath": "/media/nvme/hpf3/projects/avalonia-misc-projects/src/ProjectHub.csproj",
+        "packagesPath": "/home/hpf3/.nuget/packages/",
+        "outputPath": "/media/nvme/hpf3/projects/avalonia-misc-projects/src/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/home/hpf3/.local/share/godot/mono/GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/hpf3/.nuget/NuGet/NuGet.Config",
+          "/home/hpf3/.nuget/NuGet/config/Godot.Offline.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/hpf3/.nuget/NuGet/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
